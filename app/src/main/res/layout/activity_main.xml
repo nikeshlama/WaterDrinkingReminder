@@ -5,25 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context=".MainActivity">
-<EditText
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Enter username here"
-    android:textSize="30dp"
-    android:id="@+id/etusername"/>
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter password here"
-        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Login Form"
+        android:textSize="20dp"
+        android:id="@+id/tvloginpage"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/etusername"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:gravity="center"
         android:id="@+id/etpassword"/>
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:textSize="30dp"
+        android:textSize="20dp"
         android:id="@+id/btnlogin"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="+New User"
+        android:textSize="20dp"
+        android:id="@+id/btnnewuser"/>
 
 
 
